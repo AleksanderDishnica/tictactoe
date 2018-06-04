@@ -168,6 +168,8 @@
 			if(checked == containers.length){
 				console.log('game over!');
 				gameOver.innerHTML += 'Game Over!';
+
+				createButton('Restart');
 			}
 		});
 
